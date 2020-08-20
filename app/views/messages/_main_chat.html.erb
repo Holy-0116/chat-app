@@ -1,7 +1,7 @@
 <div class="main-header">
   <div class="header-left">
       <div class="current-room">
-        hogefuga
+        <%= @room.name %>
       </div>
   </div>
   <div class="header-right">
@@ -13,21 +13,6 @@
 
 <div class="messages">
   <%= render partial: 'message', collection: @messages %>
-  <%# <div class="message-wrapper">
-      <div class="message-upper">
-        <div class="user-name">
-          Tom
-        </div>
-        <div class="created-at">
-          2020/3/31(Wed) 12:43:30
-        </div>
-      </div>
-      <div class="message-lower">
-        <div class="message">
-          おはよう
-        </div>
-      </div>
-  </div> %>
 </div>
 
 
