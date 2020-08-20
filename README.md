@@ -30,8 +30,8 @@
 
 | Column | Type       | Options                        |
 | ------ | ---------- | -------------------------------|
-| user   | refarences | null: false, foreign_key: true |
-| room   | refarences | null: false, foreign_key: true |
+| user   | references | null: false, foreign_key: true |
+| room   | references | null: false, foreign_key: true |
 
 ### Association
 
@@ -43,8 +43,8 @@
 | Column  | Type       | Options                        |
 | ------- | ---------- | ------------------------------ |
 | content | string     |                                |
-| user    | refarences | null: false, foreign_key: true |
-| room    | refarences | null: false, foreign_key: true |
+| user    | references | null: false, foreign_key: true |
+| room    | references | null: false, foreign_key: true |
 
 ### Association
 
